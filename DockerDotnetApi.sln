@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerDotnetApi", "DockerDotnetApi\DockerDotnetApi.csproj", "{01AFFDBF-DB40-4A4A-ABCF-23EDCD53D06A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerDotnetApi.Test", "DockerDotnetApi.Test\DockerDotnetApi.Test.csproj", "{FF34CE8C-E307-4751-BAE9-97042D8A259E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerDotnetApi.Test", "DockerDotnetApi.Test\DockerDotnetApi.Test.csproj", "{FF34CE8C-E307-4751-BAE9-97042D8A259E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0F30494-3C6C-4903-BC76-08217CA06685}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
